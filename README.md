@@ -44,9 +44,7 @@ All fine-tuned checkpoints are already stored here:
    - Two models compared: vinai/bertweet‑base and distilbert‑base‑uncased.
    - Tokenizers are reloaded from `hf_best/<model>`
 
-   
 
-   - 
 ### Notes and Assumptions
 - All comparisons were made on **validation data**. We did not re-run the same comparisons on the test set.  
 - After completing the comparisons on evaluation data, we did run the models once more on the test set to confirm that inference works properly.
